@@ -1,0 +1,25 @@
+.btn{
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: aquamarine;
+}
+.btn:active{
+    background-color: burlywood;
+    color: violet;
+}
+.btn:focus{
+    background-color: brown;
+    color: black;
+}
+.para::after{
+    content: "hey";
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para::selection{
+    color: green;
+}

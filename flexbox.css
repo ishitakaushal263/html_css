@@ -1,0 +1,26 @@
+body{
+    display: block;
+    background-color: black;
+    padding: 50px;
+}
+.parent{
+    display: block;
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: row-reverse;
+     */
+     /* justify-content: center; */
+     /* justify-content: space-evenly; */
+     /* justify-content: space-between; */
+     justify-content: space-around;
+     gap: 5px;
+     flex-wrap: wrap;
+     align-items: center;
+}
+.child{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,51 @@
+.btn{
+    background-color: aquamarine;
+    color: black;
+    height: 100px;
+    width: 100px;
+    
+}
+.btn:focus{
+    background-color: black;
+    color: white;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    /* transition-property: background-color; */
+    height: 200px;
+    width: 500px;
+}
+/* .btn:active{
+    background-color: blue;
+    
+} */
+
+.parent{
+    width: 800px;
+    height: 800px;
+    border: red 4px solid;
+}
+.child{
+    width: 300px;
+    height: 300px;
+    border: blue 2px solid;
+    background-color: blueviolet;
+}
+.child:hover{
+      border-radius: 50%;
+      background-color: bisque;
+      /* transition-property: background-color; */
+      transition-delay: 0s ;
+      transition-duration: 2s;
+      transform: translateX(700px);
+}
+
+
+
+
+
+
+
+
+
+
+

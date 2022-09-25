@@ -1,0 +1,37 @@
+.mobile{
+    border: black 2px solid;
+    display: block;
+    font-size: large;
+}
+.laptop{
+    display: none;
+}
+.tablet{
+    display: none;
+}
+@media (min-width:768px){
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: block;
+        border: pink 2px solid;
+        background-color: blueviolet;
+    }
+}
+@media(min-width: 1024px){
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .laptop{
+        display: block;
+        border: green 2px solid;
+        background-color: blanchedalmond;
+    }
+}
