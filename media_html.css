@@ -1,0 +1,32 @@
+.mob{
+    display: block;
+    background-color: aquamarine;
+}
+.tab{
+    display: none;
+    
+}
+.pc{
+    display: none;
+}
+@media (min-width: 768px){
+    .tab{
+        display: block;
+        background-color: blueviolet;
+    }
+    .mob{
+        display: none;
+    }
+}
+@media(min-width: 1024px){
+    .pc{
+        display: block;
+        background-color: blue;
+    }
+    .tab{
+        display: none;
+    }
+    .mob{
+        display: none;
+    }
+}
